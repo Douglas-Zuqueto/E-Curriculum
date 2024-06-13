@@ -61,3 +61,27 @@
     line-height: 1.6;
     color: var(--gray-100);
 }
+
+.abilitiesForm {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-top: 1px solid var(--gray-400);
+}
+
+.abilitiesForm strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+}
+
+.cursosForm {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-top: 1px solid var(--gray-400);
+}
+
+.cursosForm strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+}

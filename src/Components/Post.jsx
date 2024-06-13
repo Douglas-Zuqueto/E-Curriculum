@@ -1,5 +1,7 @@
 import avatar from '../assets/img/avatar.webp'
+import { Abilities } from './Abilities.jsx'
 import { Comments } from './Comments.jsx'
+import { Graduations } from './Graduations.jsx'
 import style from './Post.module.css'
 
 export function Post () {
@@ -29,6 +31,22 @@ export function Post () {
 
             <div>
                 <Comments />
+            </div>
+
+            <form className={style.abilitiesForm}>
+                <strong>Habilidades</strong>
+            </form>
+
+            <div>
+                <Abilities />
+            </div>
+
+            <form className={style.cursosForm}>
+                <strong>Cursos</strong>
+            </form>
+
+            <div>
+                <Graduations />
             </div>
 
         </article>

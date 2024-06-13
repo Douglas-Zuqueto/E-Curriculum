@@ -1,0 +1,45 @@
+.cursos {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.cursosBox {
+    flex: 1;
+}
+
+.cursosContent1 {
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cursosContent1 p {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.cursosContent2 {
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cursosContent2 p {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.cursosContent3 {
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cursosContent3 p {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}

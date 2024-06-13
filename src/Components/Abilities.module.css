@@ -1,0 +1,21 @@
+.abilities {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.abilitiesBox {
+    flex: 1;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.abilitiesList {
+    flex: 1;
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    line-height: 1.6;
+}
